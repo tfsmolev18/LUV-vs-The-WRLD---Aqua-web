@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>Contact Us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/footer.css">
+<link rel="stylesheet"type="text/css" href="../css/contactusbutton.css">
+<link rel="stylesheet"type="text/css" href="../css/waveanimation.css">
+<link rel="stylesheet" type="text/css" href="../css/socialmediasonside.css">
+<link href="https://fonts.googleapis.com/css?family=B612&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+ 
+<style>
+ * {
+      box-sizing: border-box;
+    }
+ 
+    /* Style inputs */
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+ 
+ 
+    /* Style the container/contact section */
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+ 
+    /* Create two columns that float next to eachother */
+    .column {
+      float: left;
+      width: 50%;
+      margin-top: 6px;
+      padding: 20px;
+    }
+ 
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+ 
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+    }
+    .footerlinks{
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  color:white;
+  transition-property: color;
+  transition-duration: 0.5s;
+}
+ 
+.footerlinks:hover{
+  color:#0ac2bc;
+  
+}
+</style>
+ 
+</head>
+<body style="background-color:white;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:14pt;line-height: 1.5;">
+      <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+          <p>Thanks for checking out our website! </p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="https://clickhole.com/wp-content/uploads/2021/04/iStock-519618496-scaled-e1617891544142.jpg" style="width:100%">
+          </div>
+          <div class="column">
+            <form action="mailto:someone@example.com">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                  <option value="" selected="selected">Select Country</option> 
+                  <option value="United States">United States</option> 
+                  <option value="Yemen">Bulgaria</option> 
+                  <option value="Yemen">United Kingdom</option> 
+                  <option value="Zambia">Zambia</option> 
+                  <option value="Zimbabwe">Zimbabwe</option>
+                  </select>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <button class="button" value="submit"><span>Submit</span></button>
+            </form>
+          </div>
+        </div>
+      </div>
+ 
+<!-- Footer -->
+<div style="width: 100%;height: 400px;color: white;background-color: #126491;">
+ 
+    <div style="font-size: 14px;float:left;margin-left:90px;width:300px;height: 300px;color:white;padding-top: 80px;line-height:40px;">
+     
+    <!--INFORMATION-->
+    <p style="font-family: 'Montserrat', sans-serif;">INFORMATION</p>
+    <p >&rsaquo;  <a class="footerlinks" href="team.html">About</a></p>
+    <p >&rsaquo;  <a class="footerlinks" href="https://act.oceana.org/page/73742/donate/1?ea.tracking.id=homepage&utm_campaign=fr&utm_source=headerdonate&utm_medium=website&utm_id=FdyAAzX7X7vhTF">Donate</a></p>
+    <p >&rsaquo;  <a class="footerlinks" href="Contact.html">Contact</a></p>
+    </div>
+    <center>
+      <!--Social Medias -->
+    <div style="font-size: 14px;;width:300px;height: 300px;color:white;padding-top: 80px;line-height:70px;">
+      <p style="font-family: 'Montserrat', sans-serif;">SOCIAL MEDIAS</p>
+      <div style="letter-spacing: 15px;padding-left:10px;">
+      <a href="https://www.facebook.com"><i class="fa fa-facebook" style="font-size:30px;color:white;"></i></a>
+      <a href="https://twitter.com/"><i class="fa fa-twitter" style="font-size:30px;color:white;"></i></a>
+      <a href="https://www.linkedin.com/"><i class="fa fa-linkedin" style="font-size:30px;color:white;"></i></a>
+    </div>
+    </div>
+    </center>    
+    
+    </div>
+    <!-- Wave Animation-->
+    <section>
+      <div class="wave wave1"></div>
+      <div class="wave wave2"></div>
+      <div class="wave wave3"></div>
+      <div class="wave wave4"></div>
+    </section>
+
+</body>
+</html>
