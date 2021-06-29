@@ -99,6 +99,19 @@ p {
      border-radius: 10px;
  }
 
+ .container2{
+    width: 1350px;
+    display:block;
+    background:white;
+    color: #333;
+    margin: 2% auto;
+    max-width: 96%;
+    padding: 1% 1.5%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+ }
+
  /*#footer {
     text-align: center;
     background:rgb(49, 10, 156);
